@@ -29,3 +29,8 @@ x   template
     visitor -- sin ejemplo ver que hace
     state -- sin ejemplo que hace
     
+
+aprender capas porque usarlos.
+ como creo test, 
+
+code smells

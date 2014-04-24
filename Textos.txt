@@ -1,1 +1,31 @@
 http://www.xnoccio.com/es/519-guia-de-migracion-de-proyectos-java-a-maven/
+
+Hola.
+
+Patrones que son y que solucionann como se implementan.
+
+Saber de todos modos. 
+
+creacionales
+    abstractfatory
+x   factory
+    builder
+    singleton
+x   prototype
+estructurales
+x   adapter
+x   bridge
+x   facade
+x   decorador
+    composite
+    flyweight IDEAL NO NECESARIAMENTE CODIGO
+    proxy   IDEAL NO NECESARIAMENTE COIDO
+COMPORTAMIENTO
+x   CADENA DE RESPONSABILIDAD
+    iterator
+    command
+x   startegy ---------- de todas maneras y un buen ehjemplo.
+x   template
+    visitor -- sin ejemplo ver que hace
+    state -- sin ejemplo que hace
+    

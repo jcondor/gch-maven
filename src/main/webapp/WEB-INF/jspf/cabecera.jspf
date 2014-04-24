@@ -1,0 +1,26 @@
+<header>
+    <!-- Bloque de cabecera de la pagina -->
+    <hgroup>
+        <h1>GCH</h1>
+        <h2>Sistema de Gesti&oacute;n de Carga Horaria</h2>
+    </hgroup>
+    <nav>
+        <ul>
+            <li>
+                <a href="listarProfesores">Profesores</a>
+            </li>
+            <li>
+                <a href="#">Laboratorios</a>
+            </li>
+            <li>
+                <a href="#">Frecuencias</a>
+            </li>
+            <li>
+                <a href="#">Programas</a>
+            </li>
+            <li>
+                <a href="#">Cursos</a>
+            </li>
+        </ul>
+    </nav>
+</header>

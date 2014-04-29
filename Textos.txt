@@ -34,3 +34,33 @@ aprender capas porque usarlos.
  como creo test, 
 
 code smells
+
+
+----------------------
+clase 7
+
+
+1. dddddddddddddddddddddddddddddddddd
+present
+   paquete JSP
+
+Negocio
+    paqauqte
+
+
+Persistencia
+    paquqte dao
+    paquqte sql
+
+2.dddddddddddddddddd
+present jsp, jsf, struts GWT, javascript y AJAX,Spring MVC, Tapestry, Android SDK, Ruby On Rails, JAVA FX (escritorio).
+
+negocio EJB, Spring, GOOgle use, web servicesSOAP y REST, 
+
+persist Hibernate, my hibatis, inatis, JDBC, alguna impelmentacion de JPA (JPA son interfaces, hibernat, etc las implementa).,
+
+
+
+
+
+

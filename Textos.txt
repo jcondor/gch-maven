@@ -60,6 +60,97 @@ negocio EJB, Spring, GOOgle use, web servicesSOAP y REST,
 persist Hibernate, my hibatis, inatis, JDBC, alguna impelmentacion de JPA (JPA son interfaces, hibernat, etc las implementa).,
 
 
+3...... criterios
+
+restricciones 
+- el sistema debe mantenerse por 5 años.
+- debe considerar 300 usuarios y cada día el 30% accedera a la aplicacion.
+- el sistema sera construuido y por desarrolladores Java.
+- el sistema sera mantenido por desarrolladores java con poca exp en java script.
+el sistema sera accedido via web unicamnte el primer año.
+se desea que sea open source porque no tenemos mucho prespusuesto.
+
+como inetgramos??
+1. establecemos objetivo.
+2. Reconocemos nuestro estado (presupuesto, req funonales y no funciinoales, como esta compuesto nuestro equipos, etc).
+3. identificamos las alternativas y decidimos.
+4. documentamos y difundimos la estrategia.
+5. comenzamos con el desarrollo
+6. monitorizamos y hacemosprubeas.
+
+Establecemos el objetivoy reconocemos nuestro entorno.
+Consideraciones hecho en clase.
+
+Que es lo que se defino como alance del proyecto?. (Obetivo)
+Aplicacion web on BD relacional que permitira la carga horaria de los docentes.
+La aplicacion debe manetnar 300 usuarios y mnejara una carga diaria del 10% aprox.
+Se desea que la aplñicacion sea solamente web eb el 1er año (es posible que nuestra aplicacion sea accedida desde otros dispositivos o aplicaciones remotas).
+
+Cual es eltiepo de vida de nuestra aplicacion (segudo criterio)?.
+5 años
+
+criterio: presupuesto.
+Se tiene X soles y se definio previamente que ese presupuesto no sera asignado a comprar licencias, se desea que la aplicacion use tecnoogias open source..
+
+CRITERIO, req funcionales y no funcionales 83er cirteriO)
+Los req fnionales estan definidos en el alcance del proyecto y adjuntamos mlos req no funcionales en un excel.
+
+CRITERIO: como sera integrado nuestro equiops?.
+elequipo estara integrado por desarrolladores java de poca experiecnia en frameworks y javaescript con conociminetos basicos de sql y JDBC
+Muchos integrantes son aun estudiantes pero se ha probado en proyectos pasados que tienen facilñidad de aprendizaje buena (por ejemplo 
+
+IDENTIFICAMOS NUESTRAS ALTERNATIVAS Y DECIDIMOS.
+PRESENTACION: 
+
+
+SEGUN LOS CRITERIOS DE SELECCION DE TECNOLOGIAS
+1. CONSIDERAR SOLO LAS PALICACIONES QUE SATISFACEN LOS REQ DESECHAMOS ANDROID SDK POR QUE SOLO LA PALICACION SERA ACCEDIDA VIA WEB EL PRIMER AÑO.
+3 DESECHAMOS JAVA FX PORQUE ES PARA PALICACIONES DE ESCRITORIO.
+PARA NGEOCIO DESECHAMOS SOAP.
+PERSISTENCIA: HINERTATE CON O SIN jpa, mYiBATIS, IBATIS
+
+2. VERIFICAOS EL ALCENCE DE LOS FRAMEWORKS.
+SI STRUTS MANEJA LA CAPA DE PRESENT Y SPRING LA DE NEGOCIO DEBERIAMOS EVITAR USAR /CONFIGUAAR sPRINGmvc YA QUE SU FUNCIOALIDAD SE SUPERPONECON STRUTS PARA NUESTRO PROYECTO.
+
+3. D
+4. SELECONAMOS.
+LA SELECCION DEBE SER TOMADO CON CRITERIOS COMO
+CROYERIO: MADURES DE TECNOLOGIA
+TODOS LOS FRAMWEORKS EN EVALUACIONTIENE UNA MADUREZEN ELMERCADO HA SIDO USADOS POR MUCHOTIEMPO Y SE HA COMPROBADO SU EFICIENCIA, LA DISPONIBILIDAD DE SUS LIBRERIAS, TC.
+CABE DETSCAR QUE EXISTE MENOR DOCUMENTACION PARA GOOGLE GUICE, Y gwt FRENTE A sPRING Y sTRUTUS.
+
+CROTERIO: DISPONIBILIDAD DE LAS LIBRERIAS
+tODA LASLIBRERIAS DE LAS SELECCIONADA TIENEN LA MISMA DISPONIBILIDAD oPEN sOURCE
+criterio: DIFICULTA DE CURVA DE APRENDIZAJE.
+tANTO JAVASCRIPT ==+AJAX, gwt Y jsf NECESITAN UN MAYOR TIEMPO DE APRENDIZAJE.
+sPRING TIENE UNA GRAN POPULARIDAD POR LO TANTO EXISTE MUCHA INFORMACIÓN EN INTERNET EN COMPARACIÓN CON GUIC E PODRIAMOS AFIRMAR QUE EL APRENIZAJE DE sPRING cORE ES MAS RAPIDO PARA NUESTRO PROJECTO.
+
+nUESTRO EQUIPO NO TIENE EXPERIENCIA SUFICIENTE SOBRE SQL, OPTIMIZACION DE CONSULTAS, ETC. POR LO TANTO USAR MYIBATIS O jdbc PODRIA GENERAR LA NECEIDAD QUE LE QUIPO DEBA APRENDER A MANEJAR SQL DEUNA MANEJA MAS OPTIMA.
+
+DEBIDO A LOE TERIOR SE SELCCIONA:
+PRESENTACION STRUTS 2.
+nEGOCIO SPRING3
+PERSISTENCIA
+
+
+--------------------------------------------------------------------------------------------
+
+LA ARQ DEBE SER NOCODIA REPARTIDA.
+
+LA ARQ DEBE SER UNA DOC QUE DA VALOR ANUESTROSTAKEHOLDER.DEBE DEMOSTARLE COMO LE ESTAMOS DANDO VALOR, POR ESO EXISTEN DIFERENTES VISTAS DE LA ARQUITECTURA.
+
+FUNCNALES NEGOCIOS EN SI NO FUNCIONALE DETERMINAN LA CLAIDAD EL SISTEMA.
+
+LA VISTA E FUNCIONALIDAD TIENE QUE VER EN TODAS LAS VISTAS, POR EJEMPLO TAMBIEN LA DE SEGURIDAD.
+
+
+
+
+
+
+
+
+
 
 
 
